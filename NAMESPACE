@@ -1,0 +1,38 @@
+
+export(
+acgf2poly,
+acov2ma.init,
+acov2ma,
+ARIMAdec,
+ARMAacov,
+canonical.decomposition,
+compare.acf,
+dsfilter,
+filtering,
+partial.fraction,
+poly2acgf,
+polydiv,
+polyeval,
+polyprod,
+polystring,
+pseudo.spectrum,
+roots.allocation,
+roots2poly
+)
+
+S3method(plot, ARIMAdec)
+S3method(plot, tsdecAcf)
+S3method(plot, tsdecARroots)
+S3method(plot, tsdecFilter)
+S3method(print, ARIMAdec)
+S3method(print, tsdecARroots)
+S3method(print, tsdecCanDec)
+S3method(print, tsdecMAroots)
+S3method(print, tsdecPSP)
+
+importFrom("graphics", "abline", "axis", "box", "grid", "lines", 
+  "mtext", "par", "plot", "plot.default", "points", "text")
+
+importFrom("stats", "arima", "coef", "end", "frequency",
+  "start", "time", "ts", "tsp", "tsp<-", "window")
+

@@ -1,0 +1,50 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\selectlanguage{english}
+
+\usepackage[colorlinks=true, citecolor=blue, 
+  linkcolor=blue, urlcolor=blue,
+  bookmarksopen=false, pdfpagemode=UseOutlines]{hyperref}
+
+\usepackage{Sweave}
+
+\renewcommand{\baselinestretch}{1.3}
+
+\newcommand{\email}[1]{\href{mailto:#1}{\normalfont\texttt{#1}}}
+
+\topmargin -1cm
+\textheight 24cm
+\textwidth 14.2cm
+\oddsidemargin 0.5cm
+\evensidemargin 0.0cm
+
+\title{\textsf{R} Package \textsf{tsdecomp}}
+\author{Javier L\'opez-de-Lacalle \\ \email{javlacalle@yahoo.es}}
+\date{December 2016}
+
+\begin{document}
+
+%\VignetteIndexEntry{tsdecomp-intro}
+%\VignetteKeyword{arima}
+%\VignetteKeyword{decomposition}
+%\VignetteKeyword{time series}
+%\VignetteDepends{tsdecomp}
+
+\maketitle
+
+\thispagestyle{empty}
+
+In order to reduce the size of the package and the time required for checking it, 
+the real vignette is placed outside the source files. 
+The vignette is available in the link below (or upon request from the author):
+
+\begin{center}
+\href{https://www.jalobe.com/doc/tsdecomp.pdf}{https://www.jalobe.com/doc/tsdecomp.pdf}.
+\end{center}
+
+The above vignette is likely to be updated independently of the updates of 
+the package (this is another reason to keep the vignette outside the 
+sources of the package).
+
+\end{document}
